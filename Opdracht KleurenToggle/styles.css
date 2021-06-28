@@ -1,0 +1,125 @@
+  img {
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position:relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position:absolute;
+    min-width: 160px;
+    overflow: auto;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .show {
+    display:block;
+  }
+
+  .button0 {
+    background-color: white;
+    border: none;
+    border: none;
+    color: black;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px;
+    margin-left: 0px;
+    margin-top: 0;
+    cursor: pointer;
+  }
+
+  .button1 {
+    background-color: rgb(248, 80, 80);
+    border: none;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px;
+    margin-left: 0px;
+    margin-top: 0;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    background-color: rgb(238, 178, 68);
+    border: none;
+    border: none;
+    color: white;
+    padding: 15px 41px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+  
+  .button3 {
+    background-color: rgb(245, 245, 146);
+    border: none;
+    color: white;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+  
+  .button4 {
+    background-color: rgb(21, 92, 245);
+    border: none;
+    border: none;
+    color: white;
+    padding: 15px 49px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+  
+  .button5 {
+    background-color: rgb(85, 189, 85);
+    border: none;
+    border: none;
+    color: white;
+    padding: 15px 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+
+  ul {
+      list-style: none;
+  }
+
+  .menu {
+    padding-left: 0px;
+    width: 100vw;
+    height: 100vh;
+    transition: top 1s ease;
+  }
+
+
